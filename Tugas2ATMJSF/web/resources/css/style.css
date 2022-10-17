@@ -1,0 +1,77 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 15, 2022, 12:12:52 PM
+    Author     : jonat
+*/
+body{
+    margin: 8%;
+}
+.container {
+  display: flex;
+  background-color: #f1f1f1;
+}
+
+.tampilan-pembungkus{
+  background-color: DodgerBlue;
+  flex-grow: 6;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  display: flex;
+}
+
+.tampilan-depan{
+    flex-grow: 2;
+    background-color: black;
+    margin: 7px;
+    flex-direction: column;
+}
+
+.menu{
+    flex-grow: 1;
+    color: white;
+    margin: 0px 10px 0px 0px;
+    padding: 5px 10px 10px 0px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px; 
+}
+
+.menu-field{
+    flex-grow: 1;
+    color: black;
+    font-size: 18px; 
+    margin: 0px 10px 0px 0px;
+    padding: 5px 10px 10px 0px;
+    text-align: center;
+}
+
+.tampilan-menu{
+    flex-grow: 1;
+    margin: 7px;
+    background-color: black;
+}
+
+.tombol-pembungkus {
+  background-color: DodgerBlue;
+  flex-grow: 1;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tombol{
+  flex-grow: 1;
+  background-color: grey;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.tombol-kosong{
+  flex-grow: 1;
+}

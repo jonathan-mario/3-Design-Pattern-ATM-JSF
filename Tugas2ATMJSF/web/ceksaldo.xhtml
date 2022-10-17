@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>MarioBank Web</title>
+        <h:outputStylesheet library="css" name="style.css"/>
+    </h:head>
+    <h:body>
+        <div class="container">
+            <div class="tampilan-pembungkus">
+                <div class="tampilan-depan">
+                    <h3>Selamat Datang di Bank</h3>
+                    <h3 style='margin: 5px 0px 0px 0px;'>Saldo Anda Adalah</h3>
+                    <h5 style='margin: 5px 0px 0px 0px;'>#{saldo.saldo}</h5>
+                </div>
+                <div class="tampilan-menu">
+                    <div class="menu">
+                        Home > 
+                    </div>
+                    <div class="menu">
+                        Cek Saldo >
+                    </div>
+                    <div class="menu">
+                        Tarik Tunai >
+                    </div>
+                    <div class="menu">
+                        Setor Tunai >
+                    </div>
+                </div>
+            </div>
+            <div class="tombol-pembungkus">
+                <h:link outcome="index" class="tombol"/>
+                <h:link outcome="ceksaldo" class="tombol"/>
+                <h:link outcome="tariktunai" class="tombol"/>
+                <h:link outcome="setortunai" class="tombol"/>
+            </div>
+        </div>
+    </h:body>
+</html>
+
