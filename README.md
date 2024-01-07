@@ -12,3 +12,11 @@ When you click "Tarik Saldo" button :
 *Must be a multiple of 50000
 ![image](https://github.com/jonathan-mario/3-Design-Pattern-ATM-JSF/assets/69971608/c5f8c83d-3f3f-4fcb-b235-d6c8403a263f)
 
+When you click "Setor Tunai" button :
+*This feature must be a multiple of 50000 also
+![image](https://github.com/jonathan-mario/3-Design-Pattern-ATM-JSF/assets/69971608/a545a0f3-5d4e-4ed3-9cc1-56c73895a266)
+
+
+
+
+
